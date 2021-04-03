@@ -141,6 +141,16 @@ public class ResponseResult<T> implements Serializable {
         public static final int OK = 20000;
 
         /**
+         * 请求失败
+         */
+        public static final int FAIL = 20002;
+
+        /**
+         * 熔断请求
+         */
+        public static final int BREAKING = 20004;
+
+        /**
          * 非法请求
          */
         public static final int ILLEGAL_REQUEST = 50000;
